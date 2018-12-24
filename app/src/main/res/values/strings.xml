@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Monster Hunter Notes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Monster Hunter Notes</string>
+    <string name="nav_header_subtitle">Your MH World database</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_info">Info</string>
+    <string name="nav_weapons">Weapons</string>
+    <string name="nav_armorsets">Armor Sets</string>
+    <string name="nav_charms">Charms</string>
+    <string name="nav_items">Items</string>
+    <string name="weaponImageViewDesc">Weapon Image</string>
+    <string name="weaponDamage">Damage: </string>
+    <string name="materials">Materials</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="skills">Skills</string>
+    <string name="description">Description:</string>
+    <string name="rarity">Rarity:</string>
+    <string name="carrylimit">Carry Limit:</string>
+    <string name="price">Price:</string>
+</resources>

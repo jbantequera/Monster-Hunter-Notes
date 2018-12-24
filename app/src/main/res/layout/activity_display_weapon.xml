@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity.DisplayWeaponActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:id="@+id/weaponImageView"
+            android:contentDescription="@string/weaponImageViewDesc"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_weapon_name"
+                android:textSize="36sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_weapon_sharpness"
+                android:text="@string/sharpness"/>
+
+            <!-- sharpness -->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="7dp"
+                android:background="#000000"
+                android:id="@+id/sharpness_bar">
+
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#be3843"
+                    android:id="@+id/sharpness_red"/>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#d3673d"
+                    android:id="@+id/sharpness_orange"/>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#c9b232"
+                    android:id="@+id/sharpness_yellow"/>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#81b034"
+                    android:id="@+id/sharpness_green"/>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#3a58d7"
+                    android:id="@+id/sharpness_blue"/>
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#e2e2e2"
+                    android:id="@+id/sharpness_white"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_weapon_rawdmg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_weapon_eledmg"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_weapon_slots"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="@string/materials"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:id="@+id/txt_weapon_materials"/>
+</LinearLayout>

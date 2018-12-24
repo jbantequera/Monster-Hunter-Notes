@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weapons"
+            android:title="@string/nav_weapons" />
+        <item
+            android:id="@+id/nav_armorsets"
+            android:title="@string/nav_armorsets" />
+        <item
+            android:id="@+id/nav_charms"
+            android:title="@string/nav_charms" />
+        <item
+            android:id="@+id/nav_items"
+            android:title="@string/nav_items" />
+    </group>
+
+</menu>
